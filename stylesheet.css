@@ -1,0 +1,41 @@
+html{
+    font-size:14pt;
+}
+
+.logo{
+    width:25%;
+    height:auto;
+}
+
+#title{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 2rem;
+    color:indianred
+}
+
+.name{
+    font-size: 16pt;
+    font-family: sans-serif;
+    color:indianred
+    
+}
+
+.links{
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.bio{
+    font-family: sans-serif;
+}
+
+.section-heading{
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+
+.edtech-tools{
+    font-weight: bold;
+    color:cornflowerblue
+}
