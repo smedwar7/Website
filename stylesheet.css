@@ -31,6 +31,33 @@ html{
     color: indianred;
 }
 
+.Edtech{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.Edtech aside{
+  background-color: indianred;
+  width: 25%;
+  float: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px){
+  .Edtech aside{
+    background-color: indianred;
+    color: white;
+    float: unset;
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px;
+  }
+}
+
 .edtech-tools{
     font-weight: bold;
     color:indianred
