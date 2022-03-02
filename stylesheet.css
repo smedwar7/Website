@@ -1,11 +1,15 @@
 .title{
   font-family:fantasy;
-  color:pink;
+  color:white;
+  background:pink;
   text-align:center;
+  font-size:3em;
 }
 .name{
   text-align:center;
-  font-size:1.5em;
+}
+.bio{
+  text-align:center;
 }
 .text{
   text-align:center;
@@ -14,6 +18,7 @@
   width:25%;
   height:auto;
   margin:auto;
+  float:center;
 }
 .col-5{
   background-color:pink;
@@ -24,6 +29,11 @@
   text-align:center;
   color:pink;
 }
+.secondary-heading{
+  text-align:center;
+  color:white;
+  background:pink;
+}
 .card{
   background-color:pink;
 }
@@ -31,4 +41,14 @@
   font-family:fantasy;
   color:white;
   text-align:center;
+}
+.rightCol{
+  position:absolute;
+  left:45%
+  
+}
+.leftCol{
+  position:absolute;
+  right:65%;
+  text-align:center
 }
