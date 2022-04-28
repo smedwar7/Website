@@ -1,15 +1,17 @@
 .title{
   font-family:fantasy;
-  color:white;
-  background:pink;
+  color:Grey;
+  background:white;
   text-align:center;
-  font-size:3em;
+  font-size:5em;
 }
 .name{
   text-align:center;
 }
 .bio{
   text-align:center;
+  font-family: arial;
+  fone-size:2em;
 }
 .text{
   text-align:center;
@@ -32,7 +34,8 @@
 .secondary-heading{
   text-align:center;
   color:white;
-  background:pink;
+  background:gray;
+  font-size:2em;
 }
 .card{
   background-color:pink;
@@ -51,4 +54,21 @@
   position:absolute;
   right:65%;
   text-align:center
+}
+.topnav {
+  background-color: pink;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ .topnav a.active {
+  background-color: white;
+  color: pink;
 }
