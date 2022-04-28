@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
 		<title>ECI 519 Website 2022</title>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,13 +13,33 @@
     </head>
     <body>
     <section>
-		  <h1 class="title">ECI 519 Website</h1>
-      <h3 class="name">Shea Edwards</h3>
+      <h1 class="title">ECI 519 Website</h1>
+      <div
+      <a class='topnav'>
+           <a class="active" href="index.html">Home</a>
+           <a href="#aboutme">About Me</a>
+           <a href="coursework.html">My Work</a>
+      <script>
+$( "a" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span" ).last().remove();
+  }
+);
+ 
+$( "a.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
+      </div>
+</d>
       <h2 class="secondary-heading">Bio</h2>
         <p class="bio">Hi! My name is Shea Edwards and I am a first year graduate student in the Learning Design and Technology program at NC State! </p>
         <figure>
         <center><img src="https://www.cbs17.com/wp-content/uploads/sites/29/2020/07/ncstategeneric.jpg"alt="NC State Logo"class="logo"/>
-        <figcaption>NCSU Logo.
+        <figcaption>NCSU Logo
         </figcaption>
           </center></figure>
       </section>
@@ -36,6 +58,8 @@
         </ul>
       </div>
       </section>
+</section>
+<hr>
 <section>
   <p><a href="coursework.html">Here are some examples of my coursework</a></p>
       </section>
