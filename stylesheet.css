@@ -81,3 +81,10 @@
   max-width: 50%;
   max-height: 400px;
 }
+
+.container{
+  width:auto;
+  height:auto;
+  margin:auto;
+  float:center;
+}
